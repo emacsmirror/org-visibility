@@ -5,16 +5,19 @@ load) the state of the visible sections of =org-mode= files.  The state is
 automatically saved when the file is saved or killed, and restored when the
 file is loaded.
 
-Emacs version 27.1 or later is required.
+See the =Installation= and =Usage= parts of the =Commentary= section in
+[[file:org-visibility.el][org-visibility.el]] for more information.
 
-See the [[file:org-visibility.el::;; Installation][Installation]] and [[file:org-visibility.el::;; Usage][Usage]] sections in the [[file:org-visibility.el][source code]] for more
-information.
+Emacs version 27.1 or later is required.
 
 Build with =make=.
 
 Clean with =make clean=.
 
 Run tests with =make test=.
+
+All files are generated from [[file:org-visibility.org][org-visibility.org]] using Emacs' org-mode literate
+programming system to "tangle" them.
 
 Copyright (C) 2021 Kyle W T Sherman
 
